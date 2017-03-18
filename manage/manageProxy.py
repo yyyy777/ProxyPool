@@ -1,4 +1,6 @@
 # coding=utf-8
+# !/env/bin/python3
+
 import requests
 from multiprocessing import Process
 from apscheduler.schedulers.blocking import BlockingScheduler
