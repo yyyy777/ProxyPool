@@ -2,13 +2,14 @@
 # !/env/bin/python3
 
 import requests
+import time
 from multiprocessing import Process
 from apscheduler.schedulers.blocking import BlockingScheduler
 
 from crawlProxy.crawlProxy import getProxy
 from tools.config import MONGO_TABLE_ALL, MONGO_TABLE_VERIFY
 from tools.ext import db
-from tools.tools import verifyProxy
+from tools.tools import verifyProxy, LogHandler
 
 
 class Proxymanager(object):
@@ -20,6 +21,7 @@ class Proxymanager(object):
         '''
         self.alldb = db[MONGO_TABLE_ALL]
         self.verifydb = db[MONGO_TABLE_VERIFY]
+        self.log = LogHandler('refresh_schedule')
 
     def refesh(self):
         '''
@@ -30,7 +32,6 @@ class Proxymanager(object):
         self.verifydb.drop()
 
         proxies = getProxy()
-
         for proxy in proxies.getProxySecond():
             if verifyProxy(str(proxy)):
                 proxy_dict = {'proxy': str(proxy)}
@@ -79,7 +80,7 @@ class Proxymanager(object):
         验证代理，如果可用则放入verifydb
         :return:
         '''
-        print('start valid proxy!')
+        self.log.info('%s start valid proxy' % time.ctime())
         for p in self.getAllProxy():
             proxy = {}
             proxy['proxy'] = p['proxy']
@@ -94,11 +95,11 @@ class Proxymanager(object):
                     verify=False)
                 if response.status_code == 200:
                     self.verifydb.insert(proxy)
-                    print('Proxy:%s is useful!' % proxy['proxy'])
+                    self.log.debug('Proxy:%s is useful!' % proxy['proxy'])
             except Exception as e:
-                print("Error: %s" % e)
-                print('Proxy: %s validation fail' % proxy['proxy'])
-        print('valid proxy complete!')
+                self.log.debug('Error: %s' % e)
+                self.log.debug('Proxy: %s validation fail' % proxy['proxy'])
+        self.log.info('%s valid proxy complete' % time.ctime())
 
     def delete_proxy(self, delproxy):
         self.verifydb.remove({'proxy': delproxy})

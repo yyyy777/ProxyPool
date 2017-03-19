@@ -1,0 +1,70 @@
+2017-03-19 13:44:55,317 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,328 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,354 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,344 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,416 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,439 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,452 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,518 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,538 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:55,556 manageProxy.py[line:83] INFO Sun Mar 19 13:44:55 2017 start valid proxy
+2017-03-19 13:44:56,361 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,361 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,363 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,363 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,402 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,402 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,419 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,420 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,462 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,463 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,470 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,470 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,484 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,484 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,488 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,489 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,687 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,688 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:44:56,723 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', OSError('Tunnel connection failed: 400 Bad Request',)))
+2017-03-19 13:44:56,724 manageProxy.py[line:101] DEBUG Proxy: 187.217.71.148:8080 validation fail
+2017-03-19 13:45:26,378 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4083780>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,378 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,392 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4083630>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,392 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,425 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd40839e8>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,426 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,446 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd40839e8>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,446 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,478 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd40835f8>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,478 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,479 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd40839e8>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,479 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,514 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4083ac8>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,515 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,517 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4083908>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,518 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,722 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4083828>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,723 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:26,758 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4083630>, 'Connection to 154.73.45.133 timed out. (connect timeout=30)'))
+2017-03-19 13:45:26,759 manageProxy.py[line:101] DEBUG Proxy: 154.73.45.133:8080 validation fail
+2017-03-19 13:45:40,535 manageProxy.py[line:98] DEBUG Proxy:46.251.49.21:8080 is useful!
+2017-03-19 13:45:55,257 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ProxyError('Cannot connect to proxy.', ConnectionResetError(104, 'Connection reset by peer')))
+2017-03-19 13:45:55,257 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:56,391 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4ceb5f8>, 'Connection to 46.251.49.21 timed out. (connect timeout=30)'))
+2017-03-19 13:45:56,392 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:56,406 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4ceb908>, 'Connection to 46.251.49.21 timed out. (connect timeout=30)'))
+2017-03-19 13:45:56,407 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:56,460 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4cebd30>, 'Connection to 46.251.49.21 timed out. (connect timeout=30)'))
+2017-03-19 13:45:56,461 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:56,466 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4cebc50>, 'Connection to 46.251.49.21 timed out. (connect timeout=30)'))
+2017-03-19 13:45:56,467 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:56,487 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4cebc50>, 'Connection to 46.251.49.21 timed out. (connect timeout=30)'))
+2017-03-19 13:45:56,488 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:56,508 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4ceb5f8>, 'Connection to 46.251.49.21 timed out. (connect timeout=30)'))
+2017-03-19 13:45:56,508 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:56,754 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4cebc50>, 'Connection to 46.251.49.21 timed out. (connect timeout=30)'))
+2017-03-19 13:45:56,754 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:56,774 manageProxy.py[line:100] DEBUG Error: HTTPSConnectionPool(host='www.baidu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x7f0dd4cebd30>, 'Connection to 46.251.49.21 timed out. (connect timeout=30)'))
+2017-03-19 13:45:56,775 manageProxy.py[line:101] DEBUG Proxy: 46.251.49.21:8080 validation fail
+2017-03-19 13:45:57,826 manageProxy.py[line:98] DEBUG Proxy:213.251.139.236:8080 is useful!
